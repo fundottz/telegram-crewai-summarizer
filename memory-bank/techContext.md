@@ -3,13 +3,13 @@
 ## Core Technologies
 - **Python 3.10+**
   - AsyncIO for concurrent operations
-  - aiogram for Telegram API
+  - Telethon for Telegram API
   - LangChain for summarization
 
 ## Key Dependencies
 ```mermaid
 flowchart LR
-    A[aiogram] --> B[Telegram API]
+    A[Telethon] --> B[Telegram API]
     C[langchain] --> D[LLM Integration]
     E[pandas] --> F[Data Processing]
 ```
